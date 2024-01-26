@@ -14,7 +14,7 @@ app.use(express.json());
 // cors
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://edu-tech-front.netlify.app"],
+    origin: ["http://localhost:5173", "https://gentle-pixie-121ccb.netlify.app"],
     credentials: true,
   })
 );
